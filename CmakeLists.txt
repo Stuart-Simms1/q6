@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.1)
+project(directory_q6)
+
+#Headers folder, such as helloworld.h
+include_directories(include)
+#Add the sources using the set:
+set(SOURCES src/helloworld.cpp src/other_source_file.cpp)
+add_executable(HelloWorld \${SOURCES})
